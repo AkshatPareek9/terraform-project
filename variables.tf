@@ -21,5 +21,9 @@ variable "env" {
 variable "bucket_name" {
     description = "Name of the bucket"
     type = string
+}
 
+variable "hash_key" {
+    description = "Hash key for dynamodb table"
+    type = string
 }
