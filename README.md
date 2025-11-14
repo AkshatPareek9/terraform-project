@@ -12,3 +12,10 @@ Terraform files required:
 - provider.tf    |    for region
 - terraform.tf   |    for aws required_provider
 - main.tf        |    for multi environment information
+
+Execute commands after all terraform configuration completed:
+```bash
+terraform init
+terraform plan
+terraform apply -auto-approve
+```
